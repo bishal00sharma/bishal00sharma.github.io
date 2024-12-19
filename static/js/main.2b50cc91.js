@@ -15,7 +15,7 @@
         }),
         (0, UE.jsx)(wf, { 
           onClick: () => window.open('https://www.linkedin.com/in/bishal-sharma-0312911a3', '_blank'),
-          style: { cursor: 'pointer' },
+          style: { cursor: 'pointer', zIndex:999, },
           children: "Linkdein" 
         }),
       ],
